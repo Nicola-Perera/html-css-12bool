@@ -1,0 +1,12 @@
+body {
+    background-color: blue;
+}
+
+/* debug rules */
+.debug .row {
+    background-color: chocolate;
+}
+.debug .col-1 {
+    height: 100%;
+    background-color: cornflowerblue;
+}
