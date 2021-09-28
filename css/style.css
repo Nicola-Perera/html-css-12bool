@@ -25,3 +25,17 @@ MAIN
     margin-top: 5rem;
 
 }
+.nest .col-6 {
+    padding: .5rem;
+}
+.nested {
+    height: 100%;
+    background-color: #f07f80;
+}
+.nested > div {
+    border: 1px solid white;
+}
+
+#initial {
+    margin-top: initial;
+}
