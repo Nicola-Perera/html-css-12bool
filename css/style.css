@@ -1,12 +1,27 @@
-body {
+/* debug rules */
+.debug {
     background-color: blue;
 }
-
-/* debug rules */
+.debug .container {
+    height: 5000px;
+}
 .debug .row {
     background-color: chocolate;
 }
 .debug .col-1 {
-    height: 100%;
     background-color: cornflowerblue;
+}
+
+/*****************
+MAIN 
+*****************/
+.row > div {
+    height: 100%;
+    border: 1px solid black;
+    text-align: center;
+  }
+.row > div h1 {
+    font-size: 1rem;
+    margin-top: 5rem;
+
 }
