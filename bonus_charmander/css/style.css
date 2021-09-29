@@ -1,0 +1,21 @@
+/* color selection */
+.bla {
+    background-color: #353a34;
+}
+.ora {
+    background-color: #f38f06;
+}
+.yel {
+    background-color: #f3e601;
+}
+.red {
+    background-color: #E54A38;
+}
+.gre {
+    background-color: #D0D2CF;
+}
+
+/* pixel management */
+.row > div {
+    height: 100%;
+}
